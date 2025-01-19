@@ -1,0 +1,14 @@
+{
+  "name": "mylabs-gui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

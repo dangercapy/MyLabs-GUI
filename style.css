@@ -1,0 +1,26 @@
+
+body {
+    font: Arial
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.item {
+    display: flex;
+    min-width: 360px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    width: 40%;
+    border: 3px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+    background-color: lightgray;
+}
