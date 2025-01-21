@@ -1,6 +1,6 @@
 async function getServers() {
 
-	let response = await fetch("http://localhost:8000", 
+	let response = await fetch(require(./config.json).apihost, 
 	{
 		method: "GET",
 
