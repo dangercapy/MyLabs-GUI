@@ -1,6 +1,4 @@
 {
-	[
-	"apihost": "IP of the machine where MyLabs is hosted"
-	#Please note the above like the following: 0.0.0.0:8000, where the number after : is 8000 (required for now).
-	]
+	"apihost": "IP of the machine where MyLabs is hosted",
+	"apiport": "Port of the api"
 }
