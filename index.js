@@ -1,6 +1,6 @@
 async function getServers() {
 
-	let response = await fetch("http://" + './config.json'.apihost + ":" + './config.json'.apiport,
+	let response = await fetch("apihost",
 	{
 		method: "GET",
 	});
